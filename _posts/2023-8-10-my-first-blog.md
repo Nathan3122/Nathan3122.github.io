@@ -22,7 +22,5 @@ ZJ OIer | 初二 | 生日 11 月 11 日
 
 <img src="/images/posts/first-blog/个人名片.png" width="80%">
 
-我的 B 站账号：<https://space.bilibili.com/2075062314>
-
 我的 Github 账号：<https://github.com/lanruixiang>
 
