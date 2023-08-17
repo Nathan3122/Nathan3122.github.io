@@ -223,3 +223,51 @@ if(a<b){
 ```
 
 在这里，`a<b` 为真，于是执行大括号内的语句
+
+但如果要这种情况呢？
+
+![](/images/wiki/cpp-rumen/liuchengtu2.png)
+
+聪明的朋友已经想到，可以这样实现：
+
+```cpp
+int a=10,b=5,c;
+bool f=0;
+if(a<b){
+  c=a;
+  f=1;
+}
+if(f==0){
+  c=b;
+}
+```
+
+但是，这样显然太麻烦了，于是我们可以使用 `if else` 语句
+
+```cpp
+int a=10,b=5,c;
+if(a<b){
+  c=a;
+}else{
+  c=b;
+}
+```
+
+在这里，`a<b` 为假，于是执行 `else` 后大括号内的语句
+
+如果大括号内只有一个语句，我们可以把大括号去掉：
+
+```cpp
+int a=10,b=5,c;
+if(a<b)c=a;
+else c=b;
+```
+
+因此，我们可以这样写代码：
+
+```cpp
+int a=10,b=5,c=1,d;
+if(a>b&&a>c)d=a;
+else if(b>a&&b>c)d=b;
+else d=c;
+```
