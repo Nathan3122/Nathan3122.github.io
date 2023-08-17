@@ -10,6 +10,7 @@ keywords: OI,缺省源,IDE设置
 
 ----------------
 
+
 ### 缺省源:
 ```cpp
 #include<bits/stdc++.h>
