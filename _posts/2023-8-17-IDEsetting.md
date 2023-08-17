@@ -7,6 +7,10 @@ keywords: OI,缺省源,IDE设置
 topmost: true
 ---
 
+**以下是常用的 IDE 设置。**
+
+----------------
+
 ### 缺省源:
 ```cpp
 #include<bits/stdc++.h>
