@@ -1,0 +1,198 @@
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl:
+url: https://nathan3122.github.io
+date_format: "ordinal"
+title: Nathan3122
+subtitle: "Nathan3122"
+description: "Nathan3122 的个人博客"
+keywords: 
+timezone: Asia/Shanghai
+encoding: "utf-8"
+# 页面左下角显示的年份
+since: 2023
+# 源码仓库，请替换成自己的
+repository: Nathan3122/Nathan3122.github.io
+# 对 css 和 js 资源的 cdn 加速配置
+cdn:
+    jsdelivr:
+        enabled: false
+# 可选组件配置
+components:
+    # 分享
+    # weibo,qq,wechat,douban,qzone,linkedin,facebook,twitter
+    share:
+        enabled: false
+        hide-platforms: qq,facebook
+    # 不蒜子访问统计
+    busuanzi:
+        enabled: false
+        start_date: 2023-8-17
+    # My Popular Repositories
+    side_bar_repo:
+        enabled: true
+        limit: 5
+    # 文章字数统计
+    word_count:
+        enabled: true
+    # 页面右上角，以及「关于」页面的二维码
+    # 修改图片请替换 assets/images/qrcode.jpg
+    qrcode:
+        enabled: true
+        image_alt: Nathan3122
+    # 维基索引页使用哪种视图，支持 列表（list）/分类（cate）
+    wiki:
+        view: cate
+    # 图片灯箱效果功能
+    fancybox:
+        enabled: false
+# 压缩页面内容
+compress_html:
+  clippings: all
+  comments: ["<!--", "-->"]
+# 代码高亮风格，支持的 theme 列表见 https://github.com/mzlogin/rouge-themes
+highlight_theme: github
+
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: Nathan3122
+organization: 
+organization_url: 
+github_username: Nathan3122
+location: Zhejiang, China
+email: 1500618015@qq.com
+
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: 首页
+
+  -
+    href: /categories/
+    label: 分类
+
+  -
+    href: /archives/
+    label: 归档
+    mobile-hidden: true
+
+  -
+    href: /open-source/
+    label: 开源
+    mobile-hidden: true
+
+  -
+    href: /fragments/
+    label: 片段
+
+  -
+    href: /wiki/
+    label: 维基
+
+  -
+    href: /links/
+    label: 链接
+    mobile-hidden: true
+
+  -
+    href: /about/
+    label: 关于
+
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
+markdown: kramdown
+kramdown:
+    input: GFM
+highlighter: rouge
+paginate: 10
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+plugins:
+    - jekyll-github-metadata
+    - rouge
+#     - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+#     - jekyll-mentions
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+    fragments:
+        output: true
+        permalink: /fragment/:path/
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, gitment, gitalk, utterances, beaudar, giscus
+comments_provider: giscus
+# !!!重要!!! 请修改下面这些信息为你自己申请的
+# !!!Important!!! Please modify infos below to yours
+# disqus 配置参考：https://disqus.com
+disqus:
+    username: 
+# gitment 配置参考：https://imsun.net/posts/gitment-introduction/
+gitment:
+    owner: Nathan3122
+    repo: blog-comments
+    oauth:
+        client_id: 310b62b7b3e9a8051942
+        client_secret: 808d13f2d8d6f2502bc7d499e9cce7cfcf94a614
+# gitalk 配置参考：https://github.com/gitalk/gitalk#install
+gitalk:
+    owner: Nathan3122
+    repo: blog-comments
+    clientID: 310b62b7b3e9a8051942
+    clientSecret: 808d13f2d8d6f2502bc7d499e9cce7cfcf94a614
+# utterances 配置参考：https://utteranc.es/
+utterances:
+    repo: Nathan3122/blog-comments
+# beaudar 配置参考：https://beaudar.lipk.org/
+beaudar:
+    repo: Nathan3122/blog-comments
+# giscus 配置参考：https://giscus.app/zh-CN
+giscus:
+    repo: Nathan3122/blog-comments
+    repo-id: R_kgDOKIPwtw
+    category: Announcements
+    category-id: DIC_kwDOKIPwt84CYqwc
+# 在使用其它评论组件时可点击显示 Disqus
+lazy_load_disqus : false
+
+# ---------------- #
+#      Search      #
+# ---------------- #
+simple_jekyll_search:
+    # 是否支持全文搜索
+    fulltext: false
+    # 最多显示多少条搜索结果
+    limit: 10
+
+# ---------------- #
+#      Google      #
+# ---------------- #
+google:
+    analytics_id: # G-20FLEG5Q2W
+    adsense:
+        enabled: false
+        footer: false
+        sidebar: false
+        sidebar-detail: false
+        content_header: false
+        content_footer: false
