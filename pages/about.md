@@ -8,7 +8,7 @@ menu: 关于
 permalink: /about/
 ---
 
-我是 lanruixiang，**初二 OIer**，生日 11 月 11 日
+**我是 lanruixiang，初二 OIer，生日 11 月 11 日**
 
 欢迎大家关注我洛谷账号 [I_like_magic](https://www.luogu.com.cn/user/778235)
 
