@@ -44,7 +44,7 @@ int main(){
 -O2 -Wl,--stack=102400000 -DDEBUG -std=c++14
 ```
 1. -O2 手动开O2 
-1. -Wl,--stack=102400000 一边写代码，一边编译
+1. -Wl,--stack=102400000
 1. -DDEBUG 支持下面的 DEBUG 操作
 1. -std=c++14 设置 c++14
 
@@ -56,6 +56,6 @@ int main(){
 #endif
 ```
 常用以上代码，中间内容别人 IDE 运行，自己 IDE 不运行。
-把 #ifdef DEBUG 中间的 $n$ 去掉可以实现中间内容自己 IDE 运行，别人 IDE 不运行
+把 #ifdef DEBUG 中间的 $$n$$ 去掉可以实现中间内容自己 IDE 运行，别人 IDE 不运行
 
 
