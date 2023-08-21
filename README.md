@@ -2,12 +2,10 @@ Fork from <https://github.com/mzlogin/mzlogin.github.io>
 
 ---
 
-这是我的博客地址：<https://lanruixiang.github.io>
+我的 github 博客地址：https://nathan3122.github.io/
 
-欢迎大家参观本蒟蒻的博客
+我的洛谷主页：[Cat_of_Turing](https://www.luogu.com.cn/user/767295)，欢迎大家关注我的 LG 账号。
 
-也欢迎大家关注我 Luogu:
+![我的练习情况](https://luogu.wao3.cn/api/guzhi?id=767295&scores=100,43,8,100,20&dark_mode=true)
 
-### [I_like_magic](https://www.luogu.com.cn/user/778235)
-
-[![](http://api.jerryz.com.cn/guzhi?id=778235&scores=100,40,18,86,0&dark_mode=true&card_width=650)](https://www.luogu.com.cn/user/778235 "垃圾估值")
+![Nathan312的答题情况](https://luogu.wao3.cn/api/practice?id=767295&dark_mode=true)
