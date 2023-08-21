@@ -5,6 +5,7 @@ categories: OI
 description: 线段树基础知识
 keywords: 数据结构,线段树,OI
 topmost: false
+mathjax: true
 ---
 
 线段树基础知识
